@@ -799,7 +799,11 @@
     let dragging = false;
     function scrubAtClientX(clientX) {
       const rect = track.getBoundingClientRect();
-      const rel = Math.min(1, Math.max(0, (clientX - rect.left - 24) / Math.max(1, rect.width - 48)));
+      const style = window.getComputedStyle(track);
+      const padLeft = parseFloat(style.paddingLeft) || 12;
+      const padRight = parseFloat(style.paddingRight) || 12;
+      const innerW = Math.max(1, rect.width - padLeft - padRight);
+      const rel = Math.min(1, Math.max(0, (clientX - rect.left - padLeft) / innerW));
       const idx = Math.round(rel * (decades.length - 1));
       setDecadeHighlight(decades[idx]);
     }
