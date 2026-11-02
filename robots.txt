@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# RetroCollect — Vintage Collectibles Archive
+# Replace https://retrocollect-archive.com with your production domain when deploying.
+Sitemap: https://retrocollect-archive.com/sitemap.xml
+

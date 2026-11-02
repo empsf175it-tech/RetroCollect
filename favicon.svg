@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="RetroCollect Monogram">
+  <defs>
+    <linearGradient id="rc-brass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8C976"/>
+      <stop offset="48%" stop-color="#C9963B"/>
+      <stop offset="100%" stop-color="#7A4F13"/>
+    </linearGradient>
+    <radialGradient id="rc-walnut" cx="50%" cy="46%" r="62%">
+      <stop offset="0%" stop-color="#2D1B11"/>
+      <stop offset="70%" stop-color="#180F09"/>
+      <stop offset="100%" stop-color="#0E0704"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Heavy Horological Bezel -->
+  <circle cx="64" cy="64" r="59" fill="url(#rc-walnut)" stroke="url(#rc-brass)" stroke-width="5"/>
+
+  <!-- Knurled Precision Ring -->
+  <circle cx="64" cy="64" r="52" fill="none" stroke="#C9963B" stroke-width="1.8" stroke-dasharray="2.5 4" stroke-opacity="0.85"/>
+
+  <!-- Inner Precision Ring -->
+  <circle cx="64" cy="64" r="46" fill="none" stroke="url(#rc-brass)" stroke-width="1.4"/>
+
+  <!-- Cardinal Stars & Diamonds -->
+  <polygon points="64,22 65.8,26.2 70.2,26.2 66.8,28.8 68,33 64,30.4 60,33 61.2,28.8 57.8,26.2 62.2,26.2" fill="#F8C976"/>
+  <polygon points="64,95 65.8,99.2 70.2,99.2 66.8,101.8 68,106 64,103.4 60,106 61.2,101.8 57.8,99.2 62.2,99.2" fill="#F8C976"/>
+  <polygon points="106,64 102.5,61.5 99,64 102.5,66.5" fill="#F8C976"/>
+  <polygon points="22,64 25.5,61.5 29,64 25.5,66.5" fill="#F8C976"/>
+
+  <!-- Inner Vitrine Lens Core -->
+  <circle cx="64" cy="64" r="36" fill="#1C1009" stroke="url(#rc-brass)" stroke-width="1.5"/>
+
+  <!-- Center Signature Monogram -->
+  <text x="64" y="74" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="28" letter-spacing="0.04em" fill="#F2E6CC">RC</text>
+  <circle cx="64" cy="85" r="2" fill="#F8C976"/>
+</svg>
