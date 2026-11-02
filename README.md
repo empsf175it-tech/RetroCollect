@@ -22,8 +22,9 @@
 ```text
 RetroCollect/
 ├── index.html          # Single-page archive markup, inline SVG monogram, JSON-LD SEO schema & modals
-├── css/
-│   └── style.css       # "Antique Archive" CSS custom properties, 3D card layers, responsive layout & motion
+├── assets/
+│   ├── css/
+│   │   └── style.css       # "Antique Archive" CSS custom properties, 3D card layers, responsive layout & motion
 ├── js/
 │   ├── tilt.js         # Local zero-dependency 3D card tilt + brass specular glare + touch/reduced-motion support
 │   └── main.js         # Catalogue filter/search/sort, radio-dial scrubber, modals, lightbox, forms & Vault dashboard
